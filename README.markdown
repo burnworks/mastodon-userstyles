@@ -99,6 +99,7 @@ src/userstyles.css は コンパイル済みの CSS ファイルになります�
         max-height: calc(10em + 1.8em / 2);
         min-height: calc(10em + 1.8em / 2);
         overflow-y: auto;
+        border-radius: 4px 4px 4px 0;
       }
 
       /* 絵文字ダイアログを移動して常に表示 */
