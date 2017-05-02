@@ -70,6 +70,8 @@
   /* トゥート入力欄の初期サイズを大きく。入力文字数による自動リサイズを無効に */
   .app-holder .autosuggest-textarea__textarea {
     padding-right: 0;
+    padding: 8px;
+    padding-bottom: 10px;
     height: calc(10em + 1.8em / 2);
     max-height: calc(10em + 1.8em / 2);
     min-height: calc(10em + 1.8em / 2);

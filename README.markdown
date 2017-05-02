@@ -93,6 +93,8 @@ src/userstyles.css は コンパイル済みの CSS ファイルになります�
       /* トゥート入力欄の初期サイズを大きく。入力文字数による自動リサイズを無効に */
       .app-holder .autosuggest-textarea__textarea {
         padding-right: 0;
+        padding: 8px;
+        padding-bottom: 10px;
         height: calc(10em + 1.8em / 2);
         max-height: calc(10em + 1.8em / 2);
         min-height: calc(10em + 1.8em / 2);
@@ -114,7 +116,7 @@ src/userstyles.css は コンパイル済みの CSS ファイルになります�
         line-height: 18px;
         text-align: left;
         z-index: 9999;
-        top: 210px;
+        top: 200px;
         width: 265px;
         height: 370px;
       }
@@ -122,6 +124,22 @@ src/userstyles.css は コンパイル済みの CSS ファイルになります�
       .app-holder .emoji-dialog.with-search {
         width: 100%;
         height: 100%;
+      }
+
+      /* 画像添付のプレビューを移動 */
+      .app-holder .compose-form__modifiers {
+        position: absolute;
+        width: 265px;
+        bottom: 10px;
+        background-color: transparent;
+      }
+      
+      .app-holder .compose-form__uploads-wrapper {
+        padding: 0;
+      }
+      
+      .app-holder .compose-form__upload {
+        margin: 0;
       }
 
     }
