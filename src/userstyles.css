@@ -101,4 +101,20 @@
     height: 100%;
   }
 
+  /* 画像添付のプレビューを移動 */
+  .app-holder .compose-form__modifiers {
+    position: absolute;
+    width: 265px;
+    bottom: 10px;
+    background-color: transparent;
+  }
+  
+  .app-holder .compose-form__uploads-wrapper {
+    padding: 0;
+  }
+  
+  .app-holder .compose-form__upload {
+    margin: 0;
+  }
+
 }
