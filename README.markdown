@@ -145,10 +145,6 @@ src/userstyles.css は コンパイル済みの CSS ファイルになります�
 
     }
 
-## 既知の問題点
-
-画像を複数添付したときに画像のプレビューが絵文字ダイアログとかぶる気がする。
-
 ## Mastodon
 
 [Mastodon - A GNU Social-compatible microblogging server](https://github.com/tootsuite/mastodon)
