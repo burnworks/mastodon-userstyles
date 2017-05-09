@@ -149,6 +149,8 @@ src/userstyles.css は コンパイル済みの CSS ファイルになります�
 
 Mastodon v1.3,2 向けに書いていますのでバージョンが異なる場合は意図した通りにならない場合があります。今後、Mastodon のバージョンアップで HTML に変更が入った場合なども同様。
 
+- [追記] v1.3.3 で動作確認済み
+
 ## Mastodon
 
 [Mastodon - A GNU Social-compatible microblogging server](https://github.com/tootsuite/mastodon)
